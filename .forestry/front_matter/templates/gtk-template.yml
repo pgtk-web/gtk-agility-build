@@ -1,4 +1,19 @@
 ---
 label: gtk-template
 hide_body: false
-fields: []
+fields:
+- name: header
+  type: blocks
+  label: Header
+  template_types:
+  - gtk-template
+  config:
+    min: 
+    max: 
+- name: main
+  type: blocks
+  label: Main
+  template_types: []
+  config:
+    min: 
+    max: 
